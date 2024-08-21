@@ -1,0 +1,65 @@
+*
+{
+    text-align: center;
+    background-image: url(image1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    max-width: 100%;
+    border-color: rgb(167, 208, 255);
+}
+.score {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+   }
+.playerScore
+{
+    grid-column: 1;
+    padding-left: 400px;
+}
+.computerScore {
+    grid-column: 2;
+    padding-right: 400px;
+}
+.head
+{
+    padding-top: 200px;
+}
+.Container {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Container > div {
+    margin-bottom: 20px;
+  }
+  
+  #result, #print {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:not(:last-child) {
+    margin-right: 10px;
+  }
